@@ -1,0 +1,1 @@
+{"name":"Local: [test]testing","url":"/Users/krc/vsc_local/larissa/[test]testing.py","tests":[{"id":1667980407548,"input":"[1,2,3],[a,b,c]","output":"[1a,2b,3c]"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/krc/vsc_local/larissa/[test]testing.py","group":"local","local":true}
