@@ -15,7 +15,7 @@ Since 2022-11-09 ~
 5. 일주일에 한 번 체크 및 토론 : 한국 기준 매주 토요일 19시(KST, UTC+9) - Discord + 이슈 있을 시 미리 말하기!
 6. 교재 - 이것이 취업을 위한 코딩 테스트다 with. 파이썬
     - 저자 git repo : https://github.com/ndb796/python-for-coding-test
-
+7. 문제 풀기 : [백준-Baekjoon Online Judge](https://www.acmicpc.net/) / [릿코드-LeetCode](https://leetcode.com/) / [프로그래머스-Programmers](https://programmers.co.kr/)
 <br />
 
 ---
