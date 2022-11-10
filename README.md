@@ -25,12 +25,22 @@ Since 2022-11-09 ~
 <br />
 
 - <b>[ttl]CodeTestPractice.ipynb</b>
-: 전체적(total)으로 축적하는 이력들. 이코테 기준으로 정리
+: 전체적(total)으로 축적하는 문제 푼 이력들. 이코테 기준으로 정리 + 릿코드 추가
+<br /><br />
+- <b>auto_input_testing.py</b>
+: VsCode Extension 중에서 자동 input 해주는 Competitive Programming Helper (cph) 사용 용 py파일.
 <br /><br />
 - <b>Python_Customized.ipynb</b>
 : 커스텀하거나 기억하려고 만든 함수들. 내장 메서드가 아닌 경우들.
 <br /><br />
-- <b>auto_input_testing.py</b>
-: VsCode Extension 중에서 자동 input 해주는 Competitive Programming Helper (cph) 사용 용 py파일.
+- <b>Python_Basics.ipynb</b>
+: 공부하면서 헷갈렸거나 이해한 것을 잊어먹지 않기 위해서 추가하는 목록들. Built-in Method, Libraries.
+<br /><br />
+- <b>Python_Visualization_Basic_matplotlib.ipynb</b>
+: 데이터 시각화 연습 및 정리 - matplotlib 위주.
+
+
+
+
 
 
