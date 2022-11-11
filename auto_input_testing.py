@@ -9,12 +9,13 @@ input = sys.stdin.readline()
 
 def longestPalindrome(string):
     string = string.lower()
+    length = len(string)
     # check the whole string is palindrome
     if string == string[::-1]:
-        return len(string)
+        return length
     # case like ab, gi len <= 2 not palindrome
-    elif len(string) <= 2:
-        return 1
+    elif length <= 2:
+        return length - 1
     # if len(string) < 2:
     #     if string == string[::-1]:
     #         return len(string)
