@@ -6,17 +6,23 @@ import re
 import datetime
 
 input = sys.stdin.readline()
-# 그리디
-def ch11_01():
-    N = int(input) # (1 <= N <= 100,000) -> O(N) 가능
-    X = sorted(map(int, input.split()))
-    count, group = 0, 0
-    for n in X:
-        # count += 1 # 모험가 수
-        if n <= N:
-            group += 1 # 그룹 수
-            count = 0 # 그룹 결성 되었으므로 초기화
-    return group
+
+def longestPalindrome(string):
+    string = string.lower()
+    # check the whole string is palindrome
+    if string == string[::-1]:
+        return len(string)
+    # case like ab, gi len <= 2 not palindrome
+    elif len(string) <= 2:
+        return 1
+    # if len(string) < 2:
+    #     if string == string[::-1]:
+    #         return len(string)
+    #     else
 
 
-print(ch11_01())
+
+
+string = input
+print(longestPalindrome(string))
+# longestPalindrome(string)
