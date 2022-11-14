@@ -8,7 +8,6 @@ import datetime
 # input = sys.stdin.readline()
 
 # 제출코드 :
-import math
 
 def bj_1026():
     N = int(input())
@@ -16,8 +15,8 @@ def bj_1026():
     B = sorted(map(int, input().split()),reverse=False)
     result = 0
     for a,b in zip(A,B):
-        prod = math.prod([a,b])
-        result += prod
+        # prod = math.prod([a,b])
+        result += (a*b)# prod
     return result
 
 print(bj_1026())
