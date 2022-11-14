@@ -5,25 +5,19 @@ import sys
 import re
 import datetime
 
-input = sys.stdin.readline()
+# input = sys.stdin.readline()
 
-def longestPalindrome(string):
-    string = string.lower()
-    length = len(string)
-    # check the whole string is palindrome
-    if string == string[::-1]:
-        return length
-    # case like ab, gi len <= 2 not palindrome
-    elif length <= 2:
-        return length - 1
-    # if len(string) < 2:
-    #     if string == string[::-1]:
-    #         return len(string)
-    #     else
+# 제출코드 :
+import math
 
+def bj_1026():
+    N = int(input())
+    A = sorted(map(int, input().split()),reverse=True)
+    B = sorted(map(int, input().split()),reverse=False)
+    result = 0
+    for a,b in zip(A,B):
+        prod = math.prod([a,b])
+        result += prod
+    return result
 
-
-
-string = input
-print(longestPalindrome(string))
-# longestPalindrome(string)
+print(bj_1026())
