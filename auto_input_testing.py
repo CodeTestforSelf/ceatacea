@@ -9,14 +9,17 @@ import datetime
 
 # 제출코드 :
 
-def bj_1026():
-    N = int(input())
-    A = sorted(map(int, input().split()),reverse=True)
-    B = sorted(map(int, input().split()),reverse=False)
+def bj_2839():
+    sugar = int(input())
+    bags = [5, 3]
     result = 0
-    for a,b in zip(A,B):
-        # prod = math.prod([a,b])
-        result += (a*b)# prod
-    return result
+    for b in bags:
+        print(f'start -- b : {b} / result : {result} / sugar : {sugar}')
+        result += sugar // b
+        print(f'result += sugar // b --> b : {b} / result : {result} / sugar : {sugar}')
+        sugar %= b
+        print(f'sugar %= b --> b : {b} / result : {result} / sugar : {sugar}')
 
-print(bj_1026())
+    return -1 if sugar != 0 else result
+
+print(bj_2839())
