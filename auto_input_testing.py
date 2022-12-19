@@ -7,11 +7,12 @@ import datetime
 
 # input = sys.stdin.readline()
 
+
 # 제출코드 :
-from fractions import Fraction
-def solution(denum1, num1, denum2, num2):
-    result = str(Fraction(f'{str(denum1)}/{str(num1)}') + Fraction(f'{str(denum2)}/{str(num2)}')).split('/')
-    return [int(n) for n in result]
+# from fractions import Fraction
+# def solution(denum1, num1, denum2, num2):
+#     result = str(Fraction(f'{str(denum1)}/{str(num1)}') + Fraction(f'{str(denum2)}/{str(num2)}')).split('/')
+#     return [int(n) for n in result]
 
 # n,m = map(int,input().split()) #n*m 크기의 맵
 # x,y,d = map(int,input().split()) #캐릭터 위치 (x,y), 바라보는 방향:d
