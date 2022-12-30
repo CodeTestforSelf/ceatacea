@@ -28,7 +28,7 @@ import datetime
 # dx = [-1,0,1,0]
 # dy = [0,1,0,-1]
 
-# # map_info: 방문한 위치를 저장하기 위한 맵, 0으로 초기화 
+# # map_info: 방문한 위치를 저장하기 위한 맵, 0으로 초기화
 # check = [[0]*m for _ in range(n)]
 # print(f'check first : \n{check}')
 # check[x][y]=1
@@ -39,13 +39,13 @@ import datetime
 #   d-=1
 #   if d == -1 : #0->-1 : 북 -> 서
 #     d = 3
- 
+
 # count = 1 #방문한 칸의 수
-# turn_num = 0 
+# turn_num = 0
 # while True:
 #   #왼쪽으로 회전
 #   turn_left()
- 
+
 #   #회전한 이후 정면이 가보지 않은 칸이고, 육지이면 이동
 #   nx = x + dx[d]
 #   ny = y + dy[d]
@@ -57,15 +57,15 @@ import datetime
 #     check[nx][ny] = 1
 #     x, y = nx, ny
 #     count+=1
-#     turn_num = 0 
+#     turn_num = 0
 #     continue
 #   # 회전한 이후 정면에 가본 칸이거나 바다인 경우 회전
 #   else:
-#     turn_num+=1 
+#     turn_num+=1
 
-#   # 4방향 모두 가본 칸이거나 바다로 되어 있는 칸 (네방향 모두 갈 수 없는 칸) 
+#   # 4방향 모두 가본 칸이거나 바다로 되어 있는 칸 (네방향 모두 갈 수 없는 칸)
 #   #-> 앞에 else문이 연달아 4번 나올 경우
-#   if turn_num == 4: 
+#   if turn_num == 4:
 #     nx = x - dx[d]
 #     ny = y - dy[d]
 #     # 뒤로 갈 수 있다면(뒤에 있는 칸이 육지) 이동
@@ -75,5 +75,5 @@ import datetime
 #     else:
 #       break
 #     turn_num = 0 # 방향 다시 순회
- 
+
 # print(count)
