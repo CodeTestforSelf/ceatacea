@@ -1,5 +1,5 @@
 ## 로켓단 스터디 - Coding Test Study & Records
-Since 2022-11-09 ~ 
+Since 2022-11-09 ~
 <b>Larissa's Personal Records</b>
 <br />
 
@@ -43,6 +43,16 @@ Since 2022-11-09 ~
 - <b>Python_Visualization_Basic_matplotlib.ipynb</b>
 : 데이터 시각화 연습 및 정리 - matplotlib 위주.
 
+
+---
+
+# Extend with Java, Javascript, Python!
+- since : 2023-01-18 ~
+새로운 언어를 배우면서 공부 겸사 자바스크립트, 자바로도 할 경우 추가!
+디렉토리 분산
+    - python : 파이썬 파일 기존의 것들
+    - java : 자바 파일들
+    - js : 자바스크립트 파일들
 
 
 
