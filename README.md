@@ -28,9 +28,7 @@ Since 2022-11-09 ~
 : 전체적(total)으로 축적하는 문제 푼 이력들. 이코테 기준으로 정리 + 릿코드 추가 <br />
 티스토리 블로그 [여기](https://aurorainthesky.tistory.com/category/%EA%B8%B0%EC%88%A0%EC%9D%B4%EC%95%BC%EA%B8%B0/%EC%8A%A4%ED%84%B0%EB%94%94)에 데일리 모아서 추가적 정리 중. <br />
 그리고 공통 notion에도 정리 중.
-
-
-<br /><br />
+<br />
 - <b>auto_input_testing.py</b>
 : VsCode Extension 중에서 자동 input 해주는 Competitive Programming Helper (cph) 사용 용 py파일.
 <br /><br />
@@ -46,10 +44,15 @@ Since 2022-11-09 ~
 
 ---
 
-# Extend with Java, Javascript, Python!
+# Directories
 - since : 2023-01-18 ~
 새로운 언어를 배우면서 공부 겸사 자바스크립트, 자바로도 할 경우 추가!
 디렉토리 분산
+- mine
+    - 이전의 이코테 진도 나가던 파일 -> 프로그래머스 먼저 하기로 합의하여 stop
+- programmers
+    - 이전처럼 프로그래머스 레벨에 따라 jupyter파일에 이어서 기록 ing
+- study
     - python : 파이썬 파일 기존의 것들
     - java : 자바 파일들
     - js : 자바스크립트 파일들
