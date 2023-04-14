@@ -53,7 +53,8 @@ Since 2022-11-09 ~
 - programmers
     - 이전처럼 프로그래머스 레벨에 따라 jupyter파일에 이어서 기록 ing
 - study
-    - python : 파이썬 파일 기존의 것들
+    - python : 파이썬 파일들.
+	- 현재 lv0 끝. lv1 진행 중.
     - java : 자바 파일들
     - js : 자바스크립트 파일들
 
